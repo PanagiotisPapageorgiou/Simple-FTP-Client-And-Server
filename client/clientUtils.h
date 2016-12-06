@@ -1,0 +1,10 @@
+void perror_exit(char*);
+int write_all(int,void *,size_t);
+int read_all(int,void*,size_t);
+char *itoa(int);
+int createFileOnLocation(char *,char*);
+int receiveFile(char*,int);
+int ClServCommunication(int,char*,char*);
+int getOK(int,char*);
+int sendOK(int);
+int argumentHandling(int,char**,char*,int*,char*);
